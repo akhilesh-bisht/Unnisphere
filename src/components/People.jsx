@@ -54,7 +54,7 @@ const peopleData = [
 
 function People() {
   return (
-    <div className="absolute top-96 md:top-[900px] py-12 px-2 ">
+    <div className="absolute top-96 md:top-[900px] py-12 px-2">
       <h1 className="  text-start md:text-center text-2xl font-medium text-black mb-8 ml-2">
         People
       </h1>
@@ -62,7 +62,7 @@ function People() {
         {peopleData.map((person, index) => (
           <div
             key={index}
-            className={`p-2 rounded-2xl border border-gray-300 shadow-lg ${person.bgColor} transform transition duration-300 ease-in-out hover:scale-105  hover:shadow-2xl hover:opacity-90 lg:w-80 lg:h-44 `}
+            className={`p-2 rounded-2xl border border-[767676] shadow-lg ${person.bgColor} transform transition duration-300 ease-in-out hover:scale-105  hover:shadow-2xl hover:opacity-90 lg:w-80 lg:h-44 `}
           >
             <h2 className=" text-[10px] sm:text-xl font-semibold">
               {person.name}

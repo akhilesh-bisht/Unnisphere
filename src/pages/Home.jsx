@@ -13,12 +13,12 @@ import Event from "../components/Event";
 function Home() {
   return (
     <>
-      <div className="flex flex-col">
+      <div className="flex flex-col p-2 ">
         <Navbar />
       </div>
 
       {/* Left side column */}
-      {/* <div className="fixed top-[333px] left-[-67px] flex flex-col items-center space-y-4">
+      <div className="fixed top-[333px] left-[-67px] flex flex-col items-center space-y-4">
         <div className="w-28">
           <img src={elipse} alt="Elipse" />
         </div>
@@ -28,7 +28,7 @@ function Home() {
         <div className="w-28 text-[#44A9B14D]">
           <img src={elipse3} alt="Elipse 3" />
         </div>
-      </div> */}
+      </div>
 
       {/* Center content */}
 
@@ -55,7 +55,7 @@ function Home() {
 
           <div className="w-44 fixed top-[484px] left-[-60px] text-[#E1C86B4D]">
             {" "}
-            <img src={elipse2} alt="" />
+            <img src={elipse2} alt="elipse" />
           </div>
 
           <div className="w-36 h-7 relative top-16 md:top-60 lg:md:top-48 ">
@@ -64,8 +64,8 @@ function Home() {
             </h1>
           </div>
 
-          <div className=" w-96 h-12  md:w-[700px]  lg:w-[1027px] md:h-36 absolute top-32 md:top-96 mt-2 ">
-            <p className="text-[10px] leading-[16px]  md:text-2xl font-light text-start text-wrap p-2 pl-4">
+          <div className=" w-96 h-12  sm:w-[37rem] md:w-[830px]  lg:w-[1027px] md:h-36 absolute top-32 md:top-96 mt-2 ">
+            <p className="text-[10px] sm:text-sm leading-[16px]  md:text-2xl font-light text-start text-wrap p-2 pl-4">
               Uniisphere is a student networking app designed to connect
               university students for academic collaboration, social networking,
               and career development. It offers features like secure messaging,
@@ -78,22 +78,22 @@ function Home() {
 
         {/* Right side column */}
         {/* <div className="fixed top-[333px] right-[-67px] flex flex-col items-center space-y-4">
-        <div className="w-28">
-        <img src={elipse} alt="Elipse" />
-        </div>
-        <div className="w-44 text-[#E1C86B4D]">
-        <img src={elipse2} alt="Elipse 2" />
-        </div>
-        <div className="w-28 text-[#44A9B14D]">
-        <img src={elipse3} alt="Elipse 3" />
-        </div>
-      </div> */}
+          <div className="w-28">
+            <img src={elipse} alt="Elipse" />
+          </div>
+          <div className="w-44 text-[#E1C86B4D]">
+            <img src={elipse2} alt="Elipse 2" />
+          </div>
+          <div className="w-28 text-[#44A9B14D]">
+            <img src={elipse3} alt="Elipse 3" />
+          </div>
+        </div> */}
 
         {/* Optional People component */}
         <People />
         <Video />
         <Comunity />
-        <Event />
+        {/* <Event /> */}
       </div>
     </>
   );

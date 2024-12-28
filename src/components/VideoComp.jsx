@@ -2,7 +2,7 @@ import React from "react";
 
 function Video() {
   return (
-    <div className="absolute top-[944px] sm:p-0 sm:top-[1125px] md:top-[1675px] lg:top-[1450px] left-0 w-full flex justify-center p-4 ">
+    <div className="absolute top-[944px] sm:p-0 sm:top-[1125px] md:top-[1675px] lg:top-[1450px] left-0 w-full flex justify-center p-4 p sm:px-2 ">
       <div className="w-full max-w-[1079px] aspect-video">
         <video
           className="w-full h-full object-cover rounded-lg"
