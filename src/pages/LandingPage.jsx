@@ -12,6 +12,8 @@ import Event from "../components/Event";
 import Comunity2 from "../components/Comminity2";
 import OurGoals from "../components/OurGoals";
 import Footer from "../components/Footer";
+import elisp from "../assets/Ellipse5.png";
+import elisp2 from "../assets/Ellipse 22.png";
 
 function LandingPage() {
   return (
@@ -21,11 +23,11 @@ function LandingPage() {
       </div>
 
       {/* Left side column */}
-      <div className="fixed top-[333px] left-[-67px] flex flex-col items-center space-y-4">
+      <div className="fixed top-[225px] left-[-67px] flex flex-col items-center space-y-4">
         <div className="w-28">
           <img src={elipse} alt="Elipse" />
         </div>
-        <div className="w-44 text-[#E1C86B4D]">
+        <div className="w-44 text-[#42934c4d] fixed top-[30rem]">
           <img src={elipse2} alt="Elipse 2" />
         </div>
         <div className="w-28 text-[#44A9B14D]">
@@ -80,17 +82,20 @@ function LandingPage() {
         </div>
 
         {/* Right side column */}
-        {/* <div className="fixed top-[333px] right-[-67px] flex flex-col items-center space-y-4">
+        <div
+          className="fixed top-[110px] right-[-67px] flex flex-col items-center space-y-4 gap-20"
+          id="about"
+        >
           <div className="w-28">
-            <img src={elipse} alt="Elipse" />
+            <img src={elisp} alt="Elipse" />
           </div>
-          <div className="w-44 text-[#E1C86B4D]">
-            <img src={elipse2} alt="Elipse 2" />
+          <div className="w-44 to  text-[#ed658e4d]">
+            <img src={elisp} alt="Elipse 2" />
           </div>
           <div className="w-28 text-[#44A9B14D]">
             <img src={elipse3} alt="Elipse 3" />
           </div>
-        </div> */}
+        </div>
 
         {/* Optional People component */}
         <People />

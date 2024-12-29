@@ -7,7 +7,7 @@ const Navbar = () => {
   // Define links dynamically
   const links = [
     { text: "Home", to: "/", additionalStyles: "" },
-    { text: "About", to: "/about" },
+    { text: "About", to: "/" },
   ];
 
   return (

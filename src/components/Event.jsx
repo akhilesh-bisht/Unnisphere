@@ -89,7 +89,7 @@ function Event() {
   return (
     <div className="relative flex flex-col gap-6 top-[1380px] sm:top-[2050px] md:top-[2825px] lg:top-[3000px]">
       {/* Background Vector */}
-      <div className="absolute  left-[-8px]  sm:left-0 w-[327px]  h-80 sm:w-[450px] sm:h-[480px] md:w-[625px] md:h-[600px]  lg:w-[1025.55px] lg:h-[884.93px]">
+      <div className="absolute  left-[-8px]  sm:left-0 w-[327px]  h-80 sm:w-[450px] sm:h-[480px] md:w-[625px] md:h-[600px]  lg:w-[951.55px] lg:h-[884.93px]">
         <img
           className="absolute right-6 sm:top-24 sm:right-8 top-28 lg:top-0
          lg:right-28"
