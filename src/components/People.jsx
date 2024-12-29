@@ -54,7 +54,7 @@ const peopleData = [
 
 function People() {
   return (
-    <div className="absolute top-96 md:top-[900px] py-12 px-2">
+    <div className="absolute top-96 md:top-[815px] py-12 px-2">
       <h1 className="  text-start md:text-center text-2xl font-medium text-black mb-8 ml-2">
         People
       </h1>

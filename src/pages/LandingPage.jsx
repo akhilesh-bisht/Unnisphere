@@ -9,8 +9,11 @@ import elipse3 from "../assets/Ellipse3.svg";
 import Video from "../components/VideoComp";
 import Comunity from "../components/Comunity";
 import Event from "../components/Event";
+import Comunity2 from "../components/Comminity2";
+import OurGoals from "../components/OurGoals";
+import Footer from "../components/Footer";
 
-function Home() {
+function LandingPage() {
   return (
     <>
       <div className="flex flex-col p-2 ">
@@ -33,9 +36,9 @@ function Home() {
       {/* Center content */}
 
       <div className="flex items-center justify-center ">
-        <div className="absolute top-40  md:top-[333px] flex flex-col items-center justify-center">
+        <div className="absolute top-40  md:top-[260px] flex flex-col items-center justify-center">
           <LogoName />
-          <div className="flex justify-center gap-1 md:gap-4  absolute top-16 md:top-[225px] lg-[259px]">
+          <div className="flex justify-center gap-1 md:gap-4  absolute top-16 md:top-[196px] lg:top-[215px]">
             <Button
               btn="Connect"
               bg="bg-[#E3E3E3]"
@@ -58,13 +61,13 @@ function Home() {
             <img src={elipse2} alt="elipse" />
           </div>
 
-          <div className="w-36 h-7 relative top-16 md:top-60 lg:md:top-48 ">
+          <div className="w-36 h-7 relative top-16 md:top-48 lg:md:top-36 ">
             <h1 className=" text-[10px] md:text-2xl md:font-semibold text-center ">
               About Us ?
             </h1>
           </div>
 
-          <div className=" w-96 h-12  sm:w-[37rem] md:w-[830px]  lg:w-[1027px] md:h-36 absolute top-32 md:top-96 mt-2 ">
+          <div className=" w-96 h-12  sm:w-[37rem] md:w-[830px]  lg:w-[1027px] md:h-36 absolute top-32 md:top-80 mt-2 ">
             <p className="text-[10px] sm:text-sm leading-[16px]  md:text-2xl font-light text-start text-wrap p-2 pl-4">
               Uniisphere is a student networking app designed to connect
               university students for academic collaboration, social networking,
@@ -93,10 +96,13 @@ function Home() {
         <People />
         <Video />
         <Comunity />
-        {/* <Event /> */}
+        <Event />
+        <Comunity2 />
+        <OurGoals />
+        <Footer />
       </div>
     </>
   );
 }
 
-export default Home;
+export default LandingPage;
