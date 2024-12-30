@@ -69,7 +69,7 @@ function LandingPage() {
             </h1>
           </div>
 
-          <div className=" w-96 h-12  sm:w-[37rem] md:w-[830px]  lg:w-[1027px] md:h-36 absolute top-32 md:top-80 mt-2 ">
+          <div className=" w-96 h-12  sm:w-[37rem] md:w-[840px]  lg:w-[1127px] md:h-36 absolute top-32 md:top-80 mt-2 pl-9 ">
             <p className="text-[10px] sm:text-sm leading-[16px]  md:text-2xl font-light text-start text-wrap p-2 pl-4">
               Uniisphere is a student networking app designed to connect
               university students for academic collaboration, social networking,

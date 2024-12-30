@@ -11,7 +11,7 @@ function OurGoals() {
           </h1>
         </div>
 
-        <h1 className="w-[333px] h-16 text-[10px] mt-6 leading-4 lg:leading-normal sm:text-base sm:w-[32rem] md:text-[22px] md:w-[714px] md:h-28">
+        <h1 className="w-[333px] h-16 text-[10px] mt-6 leading-4 lg:leading-a sm:text-base sm:w-[32rem] md:text-[22px] md:w-[714px] md:h-28">
           Uniisphere’s mission is to empower university students by fostering
           meaningful connections, enhancing academic collaboration, and
           providing resources for personal and professional growth—ensuring
