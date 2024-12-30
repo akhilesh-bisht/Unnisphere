@@ -1,5 +1,5 @@
 import React from "react";
-import unnisphere from "../assets/unnisphere.png";
+import unnisphere from "../assets/Unnisphere.png";
 function LogoName() {
   return (
     <div className=" w-64 h-9 sm:w-80  md:w-[37rem] md:h-16  lg:w-[80%] 2xl:w-[1150px] lg:h-36 x text-center opacity-[0.94px] flex flex-col items-center justify-center p-2">
