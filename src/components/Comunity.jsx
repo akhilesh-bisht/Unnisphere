@@ -22,8 +22,8 @@ function Comunity() {
             src={eBook}
             alt="ebook"
           />
-          <div className=" w-48 h-4 sm:w-80 md:w-[446px] md:h-[36px] ml-6">
-            <h1 className=" text-[13px] sm:text-xl md:text-3xl font-bold text-black  mt-1 md:mt-10">
+          <div className=" w-48 h-4 sm:w-80 md:w-[446px] md:h-[36px] ml-5">
+            <h1 className=" text-[13px] sm:text-xl md:text-3xl font-bold text-black  mt-5 md:mt-10">
               Your Path to Smarter Learning
             </h1>
           </div>
@@ -75,7 +75,7 @@ function Comunity() {
           </div>
 
           {/* Left Section (Mirrored to Right) */}
-          <div className="relative top-10 left-6 sm:top-2 sm:left-[px] md:left-8 sm:w-[45%] md:w-[44%] lg:left-0">
+          <div className="relative top-10 left-10 sm:top-2 sm:left-[px] md:left-8 sm:w-[45%] md:w-[44%] lg:left-0 ">
             <img
               className="w-40 h-28 sm:w-[288px] sm:h-[260px] md:w-[400px] md:h-64 lg:w-[482px] lg:h-80 object-contain"
               src={vetor}
@@ -86,7 +86,7 @@ function Comunity() {
               src={boys}
               alt="ebook"
             />
-            <div className="w-40 h-4 sm:w-80 md:w-[475px] md:h-[36px] mr-6 relative sm:right-8">
+            <div className="w-40 h-4 sm:w-80 md:w-[478px] md:h-[36px] mr-6 relative sm:right-8">
               <h1 className="text-[10px] sm:text-xl md:text-3xl font-bold text-black mt-1 ml-3 sm:ml-0 md:mt-10">
                 <img
                   className=" hidden absolute lg:top-[410px] lg:left-[276px] "

@@ -18,7 +18,7 @@ function Signup() {
         <LoginNav />
       </div>
       <div className="flex w-full p-5 justify-center">
-        <div className="w-[286px] h-auto mt-6 bg-[#f7f7fd] md:w-[480px] md:h-auto xl:w-[687px] p-4 rounded-lg shadow-lg">
+        <div className="w-[286px] h-[445px] md:h-[500px] lg:h-[601px] mt-6 bg-[#f7f7fd] md:w-[480px]  xl:w-[687px] p-4 rounded-lg shadow-lg">
           <form className="space-y-4 mt-4">
             {/* Full Name Input */}
             <div className="flex flex-col">

@@ -11,12 +11,12 @@ const Navbar = () => {
     navigate("/signup");
   };
   return (
-    <nav className="flex items-center justify-between px-4 md:px-8 lg:px-12 py-4">
+    <nav className="flex items-center justify-end px-4 md:px-8 lg:px-12 py-4 w-[104%]">
       <div className="flex items-center space-x-4">
         <Logo />
       </div>
 
-      <div className="flex gap-2">
+      <div className="flex gap-2 ml-4 justify-end">
         <Button
           btn="Login"
           bg="bg-[#E3E3E3]"

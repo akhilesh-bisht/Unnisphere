@@ -35,7 +35,7 @@ function Footer() {
         </div>
 
         {/* Right Div */}
-        <div className="flex space-x-16 w-[284px] h-40 sm:w-[450px] sm:h-60 md:w-[560px] md:h-72 md:ml-8 p-6 rounded-md bg-[#FBF8ED] sm:ml-4 lg:w-[881px] lg:h-[460px] lg:gap-10 lg:ml-10 justify-evenly">
+        <div className="flex space-x-16 w-[288px] h-40 sm:w-[450px] sm:h-60 md:w-[560px] md:h-72 md:ml-8 p-6 rounded-md bg-[#FBF8ED] sm:ml-4 lg:w-[881px] lg:h-[460px] lg:gap-10 lg:ml-10 justify-evenly">
           {/* About Section */}
           <div>
             <ul className="space-y-2 text-[10px] md:text-[16px] text-[#727171] lg:text-2xl">

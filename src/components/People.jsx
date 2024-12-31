@@ -6,7 +6,7 @@ const peopleData = [
     name: "“Shreya”",
     heading: "B.Tech",
     description:
-      "Owned subsidiary of Endeavor Group Holdings. World Wrestling Entertainment is an American professional wrestling.",
+      "Owned subsidiary of Endeavor Group Holdings. World Wrestling  is an American professional wrestling.",
     img: shereya,
     bgColor: "bg-pink-100",
   },
@@ -14,7 +14,7 @@ const peopleData = [
     name: "“Yashi”",
     heading: "B.Tech",
     description:
-      "Leading provider of management consulting. Offering top-tier strategy  organizations worldwide.",
+      "Owned subsidiary of Endeavor Group Holdings. World Wrestling  is an American professional wrestling.",
     img: shereya,
     bgColor: "bg-yellow-100",
   },
@@ -22,7 +22,7 @@ const peopleData = [
     name: "“Ruhi”",
     heading: "BSC",
     description:
-      "Focused on advanced computing solutions and application development with modern tools and methodologies.",
+      "Owned subsidiary of Endeavor Group Holdings. World Wrestling  is an American professional wrestling.",
     img: shereya,
     bgColor: "bg-blue-100",
   },
@@ -30,7 +30,7 @@ const peopleData = [
     name: "“Rohit”",
     heading: "Arts",
     description:
-      "Expert in engineering innovations, with a focus on cutting-edge technologies in the tech domain.",
+      "Owned subsidiary of Endeavor Group Holdings. World Wrestling  is an American professional wrestling.",
     img: shereya,
     bgColor: "bg-green-100",
   },
@@ -38,7 +38,7 @@ const peopleData = [
     name: "“Aradhana”",
     heading: "Arts",
     description:
-      "Specialist in scientific research, bringing creative solutions to complex challenges in modern science.",
+      "Owned subsidiary of Endeavor Group Holdings. World Wrestling  is an American professional wrestling.",
     img: shereya,
     bgColor: "bg-purple-100",
   },
@@ -46,7 +46,7 @@ const peopleData = [
     name: "“Vansh”",
     heading: "Arts",
     description:
-      "Dedicated to groundbreaking research and contributing to academia with impactful studies and findings.",
+      "Owned subsidiary of Endeavor Group Holdings. World Wrestling  is an American professional wrestling.",
     img: shereya,
     bgColor: "bg-orange-100",
   },
@@ -54,7 +54,7 @@ const peopleData = [
 
 function People() {
   return (
-    <div className="absolute top-96 md:top-[815px] py-12 px-2">
+    <div className="absolute top-96 md:top-[815px] py-12 px-2 ">
       <h1 className="  text-start md:text-center text-2xl font-medium text-black mb-8 ml-2">
         People
       </h1>
@@ -62,14 +62,14 @@ function People() {
         {peopleData.map((person, index) => (
           <div
             key={index}
-            className={`p-2 rounded-2xl border border-[767676] shadow-lg ${person.bgColor} transform transition duration-300 ease-in-out hover:scale-105  hover:shadow-2xl hover:opacity-90 lg:w-80 lg:h-44 `}
+            className={`p-2 rounded-2xl border-[0.73px] border-[#767676] shadow-lg ${person.bgColor} transform transition duration-300 ease-in-out hover:scale-105  hover:shadow-2xl hover:opacity-90 lg:w-80 lg:h-44 `}
           >
             <h2 className=" text-[10px] sm:text-xl font-semibold">
               {person.name}
             </h2>
             <div className="flex  mb-4">
               <img
-                className=" w-7 h-6 sm:w-20  md:h-20 rounded-full border-2 border-gray-300  transform transition duration-300 ease-in-out hover:scale-125 hover:rotate-12 mt-1"
+                className=" w-7 h-6 sm:w-20  md:h-20 rounded-full  transform transition duration-300 ease-in-out hover:scale-125 hover:rotate-12 mt-1"
                 src={person.img}
                 alt={person.name}
               />
